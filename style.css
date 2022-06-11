@@ -1,0 +1,98 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+html, body {
+    height: 100%;
+    overflow-y: hidden;
+    overflow-x: hidden;
+
+}
+header {
+    padding: 20px;
+    display: flex;
+}
+header.imagem > picture {
+    padding-left: 30px;
+    padding-top: 20px;
+    flex-wrap: wrap;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 2%;
+
+}
+header.imagem > nav{
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: right;
+    width: 50%;
+}
+nav > a {
+    text-decoration: none;
+    color: black;
+    padding-left: 30px;
+    padding-right: 30px;
+    
+    
+}
+nav > a:hover {
+    text-decoration: underline;
+    background-color: #017143;
+    border-radius: 10px;
+
+}
+section.sobre {
+    position: relative;
+    height: calc(100% - 200%);
+}
+.extras {
+    border-radius: 100% 0% 0% 0%;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 550px;
+    height: 550px;
+    background-color: #017143;
+}
+.socialmedia {
+    position: absolute;
+    right: 0px;
+    top: 120px;
+}
+.socialmedia > a > img {
+    display: block;
+    padding: 15px 15px ;
+}
+.titulo {
+    padding-left: 120px;
+}
+.titulo > h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-size: 4em;
+}
+.titulo > p {
+    color: black;
+    width: 600px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.botao {
+    background-color: #017143;
+    color: white;
+    border: 0;
+    margin: auto;
+    border-radius: 10px;
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+}
+.imagensbottom {
+    display: flex;
+    bottom: 0;
+    padding-top: 120px;
+    padding-left: 570px;
+}
+
